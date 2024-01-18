@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <!-- fuente que vamos a usar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lemon&display=swap" rel="stylesheet">
+    <!--  -->
+    <!-- Con la etiqueta 'link' se conecta los otros archivos  -->
+    <!-- el 'css' que vamos a usar -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/css.css">
+    
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="../img/logo.png" class="header__logo" alt="LogoTipo">
+            <!--siempre que se coloque una imagen se debe colocar un texto alternativo-->
+        </a>
+
+    </header>
+    <nav class="navegacion">
+        <a href="index.html" class="navegacion__enlace navegacion__enlace--activo">Tienda</a>
+        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+    </nav>
+    </footer>
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img src="/img/3.jpg" alt="imagen__producto" class="camisa__imagen">
+            <div class="camisa__contenido">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend placerat neque non
+                    malesuada. Integer congue lectus et ipsum ultricies ultrices. Mauris non tortor luctus, dignissim
+                    diam ac, rutrum ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                </p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="0">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__texto">Front End Store --Todos los derechos Reservados 2024</p>
+    </footer>
+
+</body>
+
+</html>
